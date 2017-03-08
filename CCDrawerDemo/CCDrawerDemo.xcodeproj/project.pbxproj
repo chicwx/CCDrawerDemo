@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30CA7F9B1E6FEEC400F982A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA7F9A1E6FEEC400F982A3 /* main.m */; };
+		30CA7F9E1E6FEEC400F982A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA7F9D1E6FEEC400F982A3 /* AppDelegate.m */; };
+		30CA7FA11E6FEEC400F982A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA7FA01E6FEEC400F982A3 /* ViewController.m */; };
+		30CA7FA41E6FEEC400F982A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CA7FA21E6FEEC400F982A3 /* Main.storyboard */; };
+		30CA7FA61E6FEEC400F982A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CA7FA51E6FEEC400F982A3 /* Assets.xcassets */; };
+		30CA7FA91E6FEEC400F982A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CA7FA71E6FEEC400F982A3 /* LaunchScreen.storyboard */; };
+		30CA7FB21E6FEFC300F982A3 /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA7FB11E6FEFC300F982A3 /* UIView+Positioning.m */; };
+		30CA7FD31E6FF66700F982A3 /* TSQCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA7FC91E6FF66700F982A3 /* TSQCalendarCell.m */; };
+		30CA7FD41E6FF66700F982A3 /* TSQCalendarMonthHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA7FCB1E6FF66700F982A3 /* TSQCalendarMonthHeaderCell.m */; };
+		30CA7FD51E6FF66700F982A3 /* TSQCalendarRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA7FCD1E6FF66700F982A3 /* TSQCalendarRowCell.m */; };
+		30CA7FD61E6FF66700F982A3 /* TSQCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA7FCF1E6FF66700F982A3 /* TSQCalendarView.m */; };
+		30CA7FD71E6FF66700F982A3 /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CA7FD11E6FF66700F982A3 /* TSViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30CA7F961E6FEEC400F982A3 /* CCDrawerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCDrawerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CA7F9A1E6FEEC400F982A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30CA7F9C1E6FEEC400F982A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30CA7F9D1E6FEEC400F982A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30CA7F9F1E6FEEC400F982A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30CA7FA01E6FEEC400F982A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30CA7FA31E6FEEC400F982A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30CA7FA51E6FEEC400F982A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30CA7FA81E6FEEC400F982A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30CA7FAA1E6FEEC400F982A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CA7FB01E6FEFC300F982A3 /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		30CA7FB11E6FEFC300F982A3 /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
+		30CA7FC51E6FF66700F982A3 /* TimesSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimesSquare.h; sourceTree = "<group>"; };
+		30CA7FC81E6FF66700F982A3 /* TSQCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarCell.h; sourceTree = "<group>"; };
+		30CA7FC91E6FF66700F982A3 /* TSQCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarCell.m; sourceTree = "<group>"; };
+		30CA7FCA1E6FF66700F982A3 /* TSQCalendarMonthHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarMonthHeaderCell.h; sourceTree = "<group>"; };
+		30CA7FCB1E6FF66700F982A3 /* TSQCalendarMonthHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarMonthHeaderCell.m; sourceTree = "<group>"; };
+		30CA7FCC1E6FF66700F982A3 /* TSQCalendarRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarRowCell.h; sourceTree = "<group>"; };
+		30CA7FCD1E6FF66700F982A3 /* TSQCalendarRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarRowCell.m; sourceTree = "<group>"; };
+		30CA7FCE1E6FF66700F982A3 /* TSQCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarView.h; sourceTree = "<group>"; };
+		30CA7FCF1E6FF66700F982A3 /* TSQCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarView.m; sourceTree = "<group>"; };
+		30CA7FD01E6FF66700F982A3 /* TSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
+		30CA7FD11E6FF66700F982A3 /* TSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30CA7F931E6FEEC400F982A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30CA7F8D1E6FEEC400F982A3 = {
+			isa = PBXGroup;
+			children = (
+				30CA7F981E6FEEC400F982A3 /* CCDrawerDemo */,
+				30CA7F971E6FEEC400F982A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30CA7F971E6FEEC400F982A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30CA7F961E6FEEC400F982A3 /* CCDrawerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30CA7F981E6FEEC400F982A3 /* CCDrawerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				30CA7F9C1E6FEEC400F982A3 /* AppDelegate.h */,
+				30CA7F9D1E6FEEC400F982A3 /* AppDelegate.m */,
+				30CA7F9F1E6FEEC400F982A3 /* ViewController.h */,
+				30CA7FA01E6FEEC400F982A3 /* ViewController.m */,
+				30CA7FB01E6FEFC300F982A3 /* UIView+Positioning.h */,
+				30CA7FB11E6FEFC300F982A3 /* UIView+Positioning.m */,
+				30CA7FC41E6FF66700F982A3 /* TimeSquareView */,
+				30CA7FA21E6FEEC400F982A3 /* Main.storyboard */,
+				30CA7FA51E6FEEC400F982A3 /* Assets.xcassets */,
+				30CA7FA71E6FEEC400F982A3 /* LaunchScreen.storyboard */,
+				30CA7FAA1E6FEEC400F982A3 /* Info.plist */,
+				30CA7F991E6FEEC400F982A3 /* Supporting Files */,
+			);
+			path = CCDrawerDemo;
+			sourceTree = "<group>";
+		};
+		30CA7F991E6FEEC400F982A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30CA7F9A1E6FEEC400F982A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30CA7FC41E6FF66700F982A3 /* TimeSquareView */ = {
+			isa = PBXGroup;
+			children = (
+				30CA7FC51E6FF66700F982A3 /* TimesSquare.h */,
+				30CA7FC81E6FF66700F982A3 /* TSQCalendarCell.h */,
+				30CA7FC91E6FF66700F982A3 /* TSQCalendarCell.m */,
+				30CA7FCA1E6FF66700F982A3 /* TSQCalendarMonthHeaderCell.h */,
+				30CA7FCB1E6FF66700F982A3 /* TSQCalendarMonthHeaderCell.m */,
+				30CA7FCC1E6FF66700F982A3 /* TSQCalendarRowCell.h */,
+				30CA7FCD1E6FF66700F982A3 /* TSQCalendarRowCell.m */,
+				30CA7FCE1E6FF66700F982A3 /* TSQCalendarView.h */,
+				30CA7FCF1E6FF66700F982A3 /* TSQCalendarView.m */,
+				30CA7FD01E6FF66700F982A3 /* TSViewController.h */,
+				30CA7FD11E6FF66700F982A3 /* TSViewController.m */,
+			);
+			path = TimeSquareView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30CA7F951E6FEEC400F982A3 /* CCDrawerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CA7FAD1E6FEEC400F982A3 /* Build configuration list for PBXNativeTarget "CCDrawerDemo" */;
+			buildPhases = (
+				30CA7F921E6FEEC400F982A3 /* Sources */,
+				30CA7F931E6FEEC400F982A3 /* Frameworks */,
+				30CA7F941E6FEEC400F982A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCDrawerDemo;
+			productName = CCDrawerDemo;
+			productReference = 30CA7F961E6FEEC400F982A3 /* CCDrawerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30CA7F8E1E6FEEC400F982A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = chic;
+				TargetAttributes = {
+					30CA7F951E6FEEC400F982A3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 30CA7F911E6FEEC400F982A3 /* Build configuration list for PBXProject "CCDrawerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30CA7F8D1E6FEEC400F982A3;
+			productRefGroup = 30CA7F971E6FEEC400F982A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30CA7F951E6FEEC400F982A3 /* CCDrawerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30CA7F941E6FEEC400F982A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CA7FA91E6FEEC400F982A3 /* LaunchScreen.storyboard in Resources */,
+				30CA7FA61E6FEEC400F982A3 /* Assets.xcassets in Resources */,
+				30CA7FA41E6FEEC400F982A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30CA7F921E6FEEC400F982A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CA7FD51E6FF66700F982A3 /* TSQCalendarRowCell.m in Sources */,
+				30CA7FD61E6FF66700F982A3 /* TSQCalendarView.m in Sources */,
+				30CA7FA11E6FEEC400F982A3 /* ViewController.m in Sources */,
+				30CA7FD31E6FF66700F982A3 /* TSQCalendarCell.m in Sources */,
+				30CA7FD71E6FF66700F982A3 /* TSViewController.m in Sources */,
+				30CA7F9E1E6FEEC400F982A3 /* AppDelegate.m in Sources */,
+				30CA7FD41E6FF66700F982A3 /* TSQCalendarMonthHeaderCell.m in Sources */,
+				30CA7FB21E6FEFC300F982A3 /* UIView+Positioning.m in Sources */,
+				30CA7F9B1E6FEEC400F982A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30CA7FA21E6FEEC400F982A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CA7FA31E6FEEC400F982A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30CA7FA71E6FEEC400F982A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CA7FA81E6FEEC400F982A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30CA7FAB1E6FEEC400F982A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30CA7FAC1E6FEEC400F982A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30CA7FAE1E6FEEC400F982A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CCDrawerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chic.CCDrawerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30CA7FAF1E6FEEC400F982A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CCDrawerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chic.CCDrawerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30CA7F911E6FEEC400F982A3 /* Build configuration list for PBXProject "CCDrawerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CA7FAB1E6FEEC400F982A3 /* Debug */,
+				30CA7FAC1E6FEEC400F982A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CA7FAD1E6FEEC400F982A3 /* Build configuration list for PBXNativeTarget "CCDrawerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CA7FAE1E6FEEC400F982A3 /* Debug */,
+				30CA7FAF1E6FEEC400F982A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30CA7F8E1E6FEEC400F982A3 /* Project object */;
+}
